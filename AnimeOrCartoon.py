@@ -8,13 +8,14 @@ from tflearn.layers.conv import conv_2d, max_pool_2d
 from tflearn.layers.core import input_data, dropout, fully_connected
 from tflearn.layers.estimator import regression
 
-
+# Function to load data from pickled file
 def load_data(file):
     file=open(file,'rb')
     data=pickle.load(file)
     file.close()
     return data
 
+# Function to segregate data
 def process_data(d):
     A=d['anime']
     C=d['cartoon']
@@ -32,9 +33,9 @@ def process_data(d):
     X=np.array(X)
     return X,y
     
-
+# Model
 def cnn(X_train,y_train,X_test,y_test):
-    
+    # Image processing
     img_prep = ImagePreprocessing()
     img_prep.add_featurewise_zero_center()
     img_prep.add_featurewise_stdnorm()
