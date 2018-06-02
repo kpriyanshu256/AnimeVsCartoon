@@ -7,7 +7,7 @@ The dataset is self-mined using Google Chrome's Fatkun Batch Image Downloader Ex
 The dataset contains around 6000 images with almost equal number of images of anime and cartoons
 
 ## Model
-The model used is a convolution neural network.
+The model used is a convolutional neural network.
 
 ## Results
 The current model has a 96.07% training accuracy and a 86.67% test accuracy.
