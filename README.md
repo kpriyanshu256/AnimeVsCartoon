@@ -5,6 +5,7 @@ The main objective is to train an artificial neural network to classify anime an
 ## Dataset
 The dataset is self-mined using Google Chrome's Fatkun Batch Image Downloader Extension.
 The dataset contains around 6000 images with almost equal number of images of anime and cartoons
+
 https://drive.google.com/open?id=1_JrLyl3v0B1BNJpJvnBsgDGFjjG2ijyi
 
 ## Model 1
