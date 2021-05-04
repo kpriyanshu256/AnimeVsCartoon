@@ -7,7 +7,7 @@ The dataset is self-mined using Google Chrome's Fatkun Batch Image Downloader Ex
 The dataset contains around 6000 images with almost equal number of images of anime and cartoons
 
 Link to dataset
-https://drive.google.com/open?id=1_JrLyl3v0B1BNJpJvnBsgDGFjjG2ijyi
+https://drive.google.com/file/d/1qhcyBgIVjgTap1q3Xiw3RH-zSfPV0Kmv/view?usp=sharing
 
 ## Model 1
 The model used is a convolutional neural network.
@@ -16,8 +16,7 @@ The model used is a convolutional neural network.
 This model uses the initial pre-trained layers of VGG-19.
 
 Weights of the above model
-https://drive.google.com/open?id=1IJFR-lrBhj99z0OB37f2mSheVi5g2cXq
-
+https://drive.google.com/file/d/1Ql6QXMdC0sj2AD2bs6F7Vq37jrREU3kg/view?usp=sharing
 
 ## Results
  # Model 1 
